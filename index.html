@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assests/style.css">
     <title>Converter Revised</title>
 </head>
 <body>
 
+    <div class="container">
+
+        <h2>Temperature Converter Revised</h2>
+
+      <div class="row">
+          <button id="clickTemp" onclick="getTemperature()">Click To Insert Your Temperature </button> 
+          <button id="disTempC" onclick="displayTemperature()">Click to Display the Conversion</button>
+      </div>
+      <div class="row">
+        <label id="conversion"></label>
     
-      
-    <script src="./assets/index.js"></script>
+        <button id="reset" onclick="tempClear()">Clear Temperature </button>
+      </div>
+    </div>
+
+    <script src="./assests/index.js"></script>
 </body>
 </html>
